@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('Tabuada V3.0'.center(50, ' '))
 print('==' * 25)
@@ -13,7 +13,7 @@ while True:
     #print('\n')
     print('-----' * 25)
 print('Programa Encerrado')
-=======
+
 print('==' * 25)
 print('Tabuada V3.0'.center(50, ' '))
 print('==' * 25)
@@ -28,4 +28,4 @@ while True:
     #print('\n')
     print('-----' * 25)
 print('Programa Encerrado')
->>>>>>> Stashed changes
+

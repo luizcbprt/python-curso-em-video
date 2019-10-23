@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 numero = input('Informe um numero entre 0 e 9999: ')
 
 print('Tamanho: ', len(numero))
@@ -27,7 +27,7 @@ for i in numero:
             print('Unidade: ', i)
     if len(numero) == 1:
         print('Unidade: ', i)
-=======
+
 numero = input('Informe um numero entre 0 e 9999: ')
 
 print('Tamanho: ', len(numero))
@@ -56,4 +56,4 @@ for i in numero:
             print('Unidade: ', i)
     if len(numero) == 1:
         print('Unidade: ', i)
->>>>>>> Stashed changes
+

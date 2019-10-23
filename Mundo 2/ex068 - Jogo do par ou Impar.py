@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from random import randint
 
 print('=-' * 25)
@@ -35,7 +35,7 @@ print('--' * 25)
 print('Você PERDEU')
 print(f'Você ganhou {jogadas} vezes!')
 print(f'Total de Jogadas = {cont}')
-=======
+
 from random import randint
 
 print('=-' * 25)
@@ -72,4 +72,4 @@ print('--' * 25)
 print('Você PERDEU')
 print(f'Você ganhou {jogadas} vezes!')
 print(f'Total de Jogadas = {cont}')
->>>>>>> Stashed changes
+

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print(' Cadastro Jogador de Futebol '.center(50, '-'))
 print('-=' * 25, '\n')
@@ -48,7 +48,7 @@ for pos, jogador in enumerate(lstJogadores):
     print(f'{jogador["nome"]:<15}', end='')
     print(f'{jogador["gols"]}', end='')
     print(f'{jogador["total"]:<5}')
-=======
+
 print('-=' * 25)
 print(' Cadastro Jogador de Futebol '.center(50, '-'))
 print('-=' * 25, '\n')
@@ -98,4 +98,4 @@ for pos, jogador in enumerate(lstJogadores):
     print(f'{jogador["nome"]:<15}', end='')
     print(f'{jogador["gols"]}', end='')
     print(f'{jogador["total"]:<5}')
->>>>>>> Stashed changes
+

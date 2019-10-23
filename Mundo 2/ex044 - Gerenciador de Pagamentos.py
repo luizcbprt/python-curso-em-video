@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txCiano':'\033[1;36m'}
 print(cores['txCiano'], '==' * 25, cores['limpa'])
@@ -33,7 +33,7 @@ else:
     acrescimo = preco_normal * 0.20
     preco_final = preco_normal + acrescimo
     print('Preço a pagar será R${:.2f} + R${:.2f}. Total R${:.2f}'.format(preco_normal, acrescimo, preco_final))
-=======
+
 cores = {'limpa':'\033[m',
          'txCiano':'\033[1;36m'}
 print(cores['txCiano'], '==' * 25, cores['limpa'])
@@ -68,4 +68,4 @@ else:
     acrescimo = preco_normal * 0.20
     preco_final = preco_normal + acrescimo
     print('Preço a pagar será R${:.2f} + R${:.2f}. Total R${:.2f}'.format(preco_normal, acrescimo, preco_final))
->>>>>>> Stashed changes
+

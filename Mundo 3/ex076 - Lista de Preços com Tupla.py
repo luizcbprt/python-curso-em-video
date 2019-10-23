@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('Lista de Preços com Tupla'.center(50, ' '))
 print('-=' * 25)
@@ -12,7 +12,7 @@ for item in lista:
     elif type(item) == float:
         print(f'{item:.2f}'.rjust(7, ' '))
 print('--' * 25)
-=======
+
 print('-=' * 25)
 print('Lista de Preços com Tupla'.center(50, ' '))
 print('-=' * 25)
@@ -26,4 +26,4 @@ for item in lista:
     elif type(item) == float:
         print(f'{item:.2f}'.rjust(7, ' '))
 print('--' * 25)
->>>>>>> Stashed changes
+

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('Sequencia de Fibonacci V1.0'.center(50, ' '))
 print('==' * 25)
@@ -16,7 +16,7 @@ while cont <= seq:
     t1 = t2
     t2 = t3
     cont += 1
-=======
+
 print('==' * 25)
 print('Sequencia de Fibonacci V1.0'.center(50, ' '))
 print('==' * 25)
@@ -34,4 +34,4 @@ while cont <= seq:
     t1 = t2
     t2 = t3
     cont += 1
->>>>>>> Stashed changes
+

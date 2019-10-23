@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 lista = [5, 3, 8, 9, 2]
 print(lista)
 lista[2] = 1
@@ -21,7 +21,7 @@ if 8 in lista:
     lista.remove(8)
 else:
     print('Não tem o valor 8 na lista')
-=======
+
 lista = [5, 3, 8, 9, 2]
 print(lista)
 lista[2] = 1
@@ -44,4 +44,4 @@ if 8 in lista:
     lista.remove(8)
 else:
     print('Não tem o valor 8 na lista')
->>>>>>> Stashed changes
+

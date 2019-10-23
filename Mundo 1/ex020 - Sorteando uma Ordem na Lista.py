@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 import random
 alunos = []
 for i in range(0, 4, 1):
@@ -7,7 +7,7 @@ for i in range(0, 4, 1):
 
 random.shuffle(alunos)
 print(alunos)
-=======
+
 import random
 alunos = []
 for i in range(0, 4, 1):
@@ -16,4 +16,4 @@ for i in range(0, 4, 1):
 
 random.shuffle(alunos)
 print(alunos)
->>>>>>> Stashed changes
+

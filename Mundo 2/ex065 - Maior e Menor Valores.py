@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print(' Maior e Menor Valores'.center(50, ' '))
 print('==' * 25)
@@ -19,7 +19,7 @@ while continuar != 'N':
     continuar = str(input('Deseja Continuar? S/N')).strip().upper()
 print('A media entre todos os valores foi: {}'.format(soma / cont))
 print('O Maior foi {}, e o menor foi {}'.format(maior, menor))
-=======
+
 print('==' * 25)
 print(' Maior e Menor Valores'.center(50, ' '))
 print('==' * 25)
@@ -40,4 +40,4 @@ while continuar != 'N':
     continuar = str(input('Deseja Continuar? S/N')).strip().upper()
 print('A media entre todos os valores foi: {}'.format(soma / cont))
 print('O Maior foi {}, e o menor foi {}'.format(maior, menor))
->>>>>>> Stashed changes
+

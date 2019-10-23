@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('Calculo do Fatorial com While'.center(50, ' '))
 print('==' * 25)
@@ -15,7 +15,7 @@ while cont > 0:
 
 print('O Fatorial de {} é {}'.format(num, result), end=' ')
 print('que é igual a {}'.format(numeros))
-=======
+
 print('==' * 25)
 print('Calculo do Fatorial com While'.center(50, ' '))
 print('==' * 25)
@@ -32,4 +32,4 @@ while cont > 0:
 
 print('O Fatorial de {} é {}'.format(num, result), end=' ')
 print('que é igual a {}'.format(numeros))
->>>>>>> Stashed changes
+

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from datetime import date
 
 cores = {'limpa':'\033[m',
@@ -23,7 +23,7 @@ elif idade == 18:
     print('{}Está na hora de se alistar, voce tem {} anos{}'.format(cores['txVerde'], idade, cores['limpa']))
 elif idade > 18:
     print('{}Voce tem {} anos e passou {} anos do tempo de se alistar{}'.format(cores['txVermelho'], idade, idade - 18, cores['limpa']))
-=======
+
 from datetime import date
 
 cores = {'limpa':'\033[m',
@@ -48,4 +48,4 @@ elif idade == 18:
     print('{}Está na hora de se alistar, voce tem {} anos{}'.format(cores['txVerde'], idade, cores['limpa']))
 elif idade > 18:
     print('{}Voce tem {} anos e passou {} anos do tempo de se alistar{}'.format(cores['txVermelho'], idade, idade - 18, cores['limpa']))
->>>>>>> Stashed changes
+

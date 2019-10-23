@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('{:^50}'.format(' Progressão Aritmética V3.0'))
 print('==' * 25)
@@ -25,7 +25,7 @@ while termo != 0:
     qtd += 1
 print('\nSoma total da PA: {}'.format(soma))
 print('Progressão Finalizada com {} termos mostrados'.format(qtd))
-=======
+
 print('==' * 25)
 print('{:^50}'.format(' Progressão Aritmética V3.0'))
 print('==' * 25)
@@ -52,4 +52,4 @@ while termo != 0:
     qtd += 1
 print('\nSoma total da PA: {}'.format(soma))
 print('Progressão Finalizada com {} termos mostrados'.format(qtd))
->>>>>>> Stashed changes
+

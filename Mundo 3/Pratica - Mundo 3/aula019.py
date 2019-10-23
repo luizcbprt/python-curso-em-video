@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 pessoas = {'nome':'Rafael', 'idade':27, 'sexo':'M'}
 print(pessoas)
 print(pessoas['nome'])
@@ -18,7 +18,7 @@ print()
 
 for key, value in pessoas.items():
     print(f'O {key} é {value}')
-=======
+
 pessoas = {'nome':'Rafael', 'idade':27, 'sexo':'M'}
 print(pessoas)
 print(pessoas['nome'])
@@ -38,4 +38,4 @@ print()
 
 for key, value in pessoas.items():
     print(f'O {key} é {value}')
->>>>>>> Stashed changes
+

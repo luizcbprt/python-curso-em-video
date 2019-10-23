@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 frase = 'Curso em Video Python'
 
 print(frase)
@@ -31,7 +31,7 @@ print(frase2.split())
 frase2_separada = frase2.split()
 print(frase2_separada[0])
 print(frase2_separada[2][4])
-=======
+
 frase = 'Curso em Video Python'
 
 print(frase)
@@ -64,4 +64,4 @@ print(frase2.split())
 frase2_separada = frase2.split()
 print(frase2_separada[0])
 print(frase2_separada[2][4])
->>>>>>> Stashed changes
+

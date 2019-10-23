@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('Valoes Unicos em uma Lista'.center(50, ' '))
 print('-=' * 25)
@@ -20,7 +20,7 @@ while True:
 lista.sort()
 print(f'A lista é: {lista}')
 print('FIM DO PROGRAMA')
-=======
+
 print('-=' * 25)
 print('Valoes Unicos em uma Lista'.center(50, ' '))
 print('-=' * 25)
@@ -42,4 +42,4 @@ while True:
 lista.sort()
 print(f'A lista é: {lista}')
 print('FIM DO PROGRAMA')
->>>>>>> Stashed changes
+

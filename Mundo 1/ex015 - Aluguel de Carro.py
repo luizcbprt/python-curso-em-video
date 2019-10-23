@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'azul':'\033[1;34m',
          'fndAzul':'\033[44m',
@@ -15,7 +15,7 @@ qtdDias = int(input('Informe a quantidade de dias que permaneceu com o carro: ')
 pagar = (qtdKm * 0.15) + (qtdDias * 60)
 
 print('O Valor total a Pagar será de R${}'.format(pagar))
-=======
+
 cores = {'limpa':'\033[m',
          'azul':'\033[1;34m',
          'fndAzul':'\033[44m',
@@ -32,4 +32,4 @@ qtdDias = int(input('Informe a quantidade de dias que permaneceu com o carro: ')
 pagar = (qtdKm * 0.15) + (qtdDias * 60)
 
 print('O Valor total a Pagar será de R${}'.format(pagar))
->>>>>>> Stashed changes
+

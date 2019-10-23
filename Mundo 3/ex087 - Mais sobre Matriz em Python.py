@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print(' Mais sobre Matriz em Python ')
 print('-=' * 25)
@@ -29,7 +29,7 @@ print('--' * 25)
 print(f'A soma dos Pares é {somaPar}')
 print(f'A soma da 3º Coluna é: {somaCol3}')
 print(f'O Maior valor da 2º Linha foi: {maiorLinha2}')
-=======
+
 print('-=' * 25)
 print(' Mais sobre Matriz em Python ')
 print('-=' * 25)
@@ -60,4 +60,4 @@ print('--' * 25)
 print(f'A soma dos Pares é {somaPar}')
 print(f'A soma da 3º Coluna é: {somaCol3}')
 print(f'O Maior valor da 2º Linha foi: {maiorLinha2}')
->>>>>>> Stashed changes
+

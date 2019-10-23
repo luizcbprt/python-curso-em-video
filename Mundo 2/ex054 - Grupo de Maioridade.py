@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from datetime import date
 
 print('==' * 25)
@@ -17,7 +17,7 @@ for cont in range(1, 8):
         qtdMenorIdade += 1
 print('Maiores de Idade: {}'.format(qtdMaiorIdade))
 print('Menores de Idade: {}'.format(qtdMenorIdade))
-=======
+
 from datetime import date
 
 print('==' * 25)
@@ -36,4 +36,4 @@ for cont in range(1, 8):
         qtdMenorIdade += 1
 print('Maiores de Idade: {}'.format(qtdMaiorIdade))
 print('Menores de Idade: {}'.format(qtdMenorIdade))
->>>>>>> Stashed changes
+

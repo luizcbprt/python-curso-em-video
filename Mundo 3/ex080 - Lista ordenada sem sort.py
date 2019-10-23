@@ -1,9 +1,9 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('{:-^50}'.format(' Lista Ordenada sem Sort'))
 print('-=' * 25)
 
-#lista = []
+lista_alternativa = []
 lista = list()
 posic = 0
 
@@ -20,12 +20,12 @@ for i in range(0,5):
                 break
         lista.insert(posic, num)
 print(lista)
-=======
+
 print('-=' * 25)
 print('{:-^50}'.format(' Lista Ordenada sem Sort'))
 print('-=' * 25)
 
-#lista = []
+lista_alternativa = []
 lista = list()
 posic = 0
 
@@ -42,4 +42,4 @@ for i in range(0,5):
                 break
         lista.insert(posic, num)
 print(lista)
->>>>>>> Stashed changes
+

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print(' Boletim com Listas Compostas ')
 print('-=' * 25)
@@ -62,7 +62,7 @@ while True:
             print()
 print()
 print(' FIM DO PROGRAMA')
-=======
+
 print('-=' * 25)
 print(' Boletim com Listas Compostas ')
 print('-=' * 25)
@@ -126,4 +126,4 @@ while True:
             print()
 print()
 print(' FIM DO PROGRAMA')
->>>>>>> Stashed changes
+

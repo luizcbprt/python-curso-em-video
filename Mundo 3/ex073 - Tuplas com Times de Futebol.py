@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('Times de Futebol'.center(50, ' '))
 print('-=' * 25)
@@ -23,7 +23,7 @@ print(sorted(times))
 
 print('--' * 25)
 print(f'Chapecoense está na posição {times.index("Chapecoense")+1}')
-=======
+
 print('-=' * 25)
 print('Times de Futebol'.center(50, ' '))
 print('-=' * 25)
@@ -48,4 +48,4 @@ print(sorted(times))
 
 print('--' * 25)
 print(f'Chapecoense está na posição {times.index("Chapecoense")+1}')
->>>>>>> Stashed changes
+

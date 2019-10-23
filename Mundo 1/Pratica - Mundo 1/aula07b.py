@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 n1 = int(input('Informe um numero: '))
 n2 = int(input('Informe outro numero: '))
 
@@ -12,7 +12,7 @@ print('A soma é {}, a multiplicacao é {}, a divisao é {:.2f}'.format(s, m, d)
 print('A divisao inteira é {}, a potencia é {}'.format(di, e))
 
 print('Soma: {},\nmultiplicacao {},\ndivisao {:.2f}'.format(s, m, d))
-=======
+
 n1 = int(input('Informe um numero: '))
 n2 = int(input('Informe outro numero: '))
 
@@ -26,4 +26,4 @@ print('A soma é {}, a multiplicacao é {}, a divisao é {:.2f}'.format(s, m, d)
 print('A divisao inteira é {}, a potencia é {}'.format(di, e))
 
 print('Soma: {},\nmultiplicacao {},\ndivisao {:.2f}'.format(s, m, d))
->>>>>>> Stashed changes
+

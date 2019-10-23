@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 import random
 
 num_pc = random.randint(0,5)
@@ -14,7 +14,7 @@ else:
         Você perdeu!
         O Computador pensou em {}, mas você falou {}
         '''.format(num_pc, num_user))
-=======
+
 import random
 
 num_pc = random.randint(0,5)
@@ -30,4 +30,4 @@ else:
         Você perdeu!
         O Computador pensou em {}, mas você falou {}
         '''.format(num_pc, num_user))
->>>>>>> Stashed changes
+

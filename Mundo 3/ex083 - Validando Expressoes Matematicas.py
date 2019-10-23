@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('{:-^50}'.format(' Validando Expressoes Matematicas '))
 print('-=' * 25)
@@ -19,7 +19,7 @@ if qtdAbreParnt == qtdFechaParnt:
     print('A Expressao é Valida!')
 else:
     print('A Expressao está incorreta')
-=======
+
 print('-=' * 25)
 print('{:-^50}'.format(' Validando Expressoes Matematicas '))
 print('-=' * 25)
@@ -40,4 +40,4 @@ if qtdAbreParnt == qtdFechaParnt:
     print('A Expressao é Valida!')
 else:
     print('A Expressao está incorreta')
->>>>>>> Stashed changes
+

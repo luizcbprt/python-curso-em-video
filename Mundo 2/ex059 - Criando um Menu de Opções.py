@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('Menu de Opções'.center(50, ' '))
 print('==' * 25)
@@ -34,7 +34,7 @@ while opcao != 5:
     elif opcao == 4:
         num1 = float(input('Informe um Novo Numero: '))
         num2 = float(input('Informe um Novo Numero: '))
-=======
+
 print('==' * 25)
 print('Menu de Opções'.center(50, ' '))
 print('==' * 25)
@@ -70,4 +70,4 @@ while opcao != 5:
     elif opcao == 4:
         num1 = float(input('Informe um Novo Numero: '))
         num2 = float(input('Informe um Novo Numero: '))
->>>>>>> Stashed changes
+

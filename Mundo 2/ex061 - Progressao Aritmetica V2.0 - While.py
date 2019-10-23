@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('{:^50}'.format(' Progressão Aritmética - While'))
 print('==' * 25)
@@ -14,7 +14,7 @@ while cont < 10:
     soma += razao
     cont += 1
 print('\nSoma total da PA: {}'.format(soma))
-=======
+
 print('==' * 25)
 print('{:^50}'.format(' Progressão Aritmética - While'))
 print('==' * 25)
@@ -30,4 +30,4 @@ while cont < 10:
     soma += razao
     cont += 1
 print('\nSoma total da PA: {}'.format(soma))
->>>>>>> Stashed changes
+

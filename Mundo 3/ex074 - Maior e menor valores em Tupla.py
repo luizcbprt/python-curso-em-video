@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from random import randint
 
 print('-=' * 25)
@@ -15,7 +15,7 @@ numTupla = tuple(numeros)
 print(f'A Listagem aleatória é: {numTupla}')
 print(f'O maior valor é {max(numTupla)}')
 print(f'O menor valor é {min(numTupla)}')
-=======
+
 from random import randint
 
 print('-=' * 25)
@@ -32,4 +32,4 @@ numTupla = tuple(numeros)
 print(f'A Listagem aleatória é: {numTupla}')
 print(f'O maior valor é {max(numTupla)}')
 print(f'O menor valor é {min(numTupla)}')
->>>>>>> Stashed changes
+

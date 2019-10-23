@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('='*20)
 print('Analisador de Triangulos')
 print('='*20)
@@ -22,7 +22,7 @@ if r1_true == 'S' and r2_true == 'S' and r3_true == 'S':
     print('As Retas podem formar um triangulo! ')
 else:
     print('As Retas NÃO podem formar um triangulo')
-=======
+
 print('='*20)
 print('Analisador de Triangulos')
 print('='*20)
@@ -46,4 +46,4 @@ if r1_true == 'S' and r2_true == 'S' and r3_true == 'S':
     print('As Retas podem formar um triangulo! ')
 else:
     print('As Retas NÃO podem formar um triangulo')
->>>>>>> Stashed changes
+

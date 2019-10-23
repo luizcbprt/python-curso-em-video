@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txCiano':'\033[1;36m'}
 print(cores['txCiano'], '==' * 25, cores['limpa'])
@@ -18,7 +18,7 @@ if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
         print('Poderá ser Formado um Triangulo ESCALENO')
 else:
     print('Não poderá ser formado um Triangulo')
-=======
+
 cores = {'limpa':'\033[m',
          'txCiano':'\033[1;36m'}
 print(cores['txCiano'], '==' * 25, cores['limpa'])
@@ -38,4 +38,4 @@ if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
         print('Poderá ser Formado um Triangulo ESCALENO')
 else:
     print('Não poderá ser formado um Triangulo')
->>>>>>> Stashed changes
+

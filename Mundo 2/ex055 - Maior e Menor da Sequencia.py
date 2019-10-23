@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('{:^50}'.format(' Maior e Menor da Sequencia '))
 print('==' * 25)
@@ -9,7 +9,7 @@ for pess in range(1,6):
     pesos.append(peso)
 print('O menor peso foi {}'.format(min(pesos)))
 print('O Maior peso foi {}'.format(max(pesos)))
-=======
+
 print('==' * 25)
 print('{:^50}'.format(' Maior e Menor da Sequencia '))
 print('==' * 25)
@@ -20,4 +20,4 @@ for pess in range(1,6):
     pesos.append(peso)
 print('O menor peso foi {}'.format(min(pesos)))
 print('O Maior peso foi {}'.format(max(pesos)))
->>>>>>> Stashed changes
+

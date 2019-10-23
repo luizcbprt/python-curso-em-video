@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from random import randint
 from time import sleep
 
@@ -37,7 +37,7 @@ while num_pc != num_user:
 print(cores['txVerde'], 'VENCEU!', cores['limpa'], end=' ')
 print('Eu pensei {}, e voce acertou'.format(num_pc))
 print('Foram Necessárias {} tentativas até você ganhar'.format(tentativas))
-=======
+
 from random import randint
 from time import sleep
 
@@ -76,4 +76,4 @@ while num_pc != num_user:
 print(cores['txVerde'], 'VENCEU!', cores['limpa'], end=' ')
 print('Eu pensei {}, e voce acertou'.format(num_pc))
 print('Foram Necessárias {} tentativas até você ganhar'.format(tentativas))
->>>>>>> Stashed changes
+

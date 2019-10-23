@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 print('-=' * 25)
 print(' Lista Composta e Analise de Dados'.center(50, ' '))
 print('-=' * 25)
@@ -50,7 +49,7 @@ print(f'As pessoas mais pesadas tiveram {maisPesado:.2f}KG e foram {lstPesado}')
 print(f'As pessoas mais leves tiveram {maisLeve:.2f}KG e foram {lstLeve}')
 print()
 print(f'Lista Geral: {lstGeral}')
-=======
+
 print('-=' * 25)
 print(' Lista Composta e Analise de Dados'.center(50, ' '))
 print('-=' * 25)
@@ -102,4 +101,3 @@ print(f'As pessoas mais pesadas tiveram {maisPesado:.2f}KG e foram {lstPesado}')
 print(f'As pessoas mais leves tiveram {maisLeve:.2f}KG e foram {lstLeve}')
 print()
 print(f'Lista Geral: {lstGeral}')
->>>>>>> Stashed changes

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('Dividindo Valores em Varias Listas'.center(50, ' '))
 print('-=' * 25)
@@ -27,7 +27,7 @@ for valor in lstGeral:
 print(f'A lista Geral é: {lstGeral}')
 print(f'Os Pares são: {lstPar}')
 print(f'A lista Impar é: {lstImpar}')
-=======
+
 print('-=' * 25)
 print('Dividindo Valores em Varias Listas'.center(50, ' '))
 print('-=' * 25)
@@ -56,4 +56,4 @@ for valor in lstGeral:
 print(f'A lista Geral é: {lstGeral}')
 print(f'Os Pares são: {lstPar}')
 print(f'A lista Impar é: {lstImpar}')
->>>>>>> Stashed changes
+

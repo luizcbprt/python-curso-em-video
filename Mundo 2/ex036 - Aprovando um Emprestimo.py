@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 # Dicionario com cores
 cores = {'limpa':'\033[m',
          'txVermelho':'\033[1;31m',
@@ -24,7 +24,7 @@ elif prestacao > (salario  * 0.30):
     print('''Emprestimo {}Negado{}
              O Valor da Parcela R${:.2f} excede 30% do seu salário
           '''.format(cores['txVermelho'], cores['limpa'], prestacao))
-=======
+
 # Dicionario com cores
 cores = {'limpa':'\033[m',
          'txVermelho':'\033[1;31m',
@@ -50,4 +50,4 @@ elif prestacao > (salario  * 0.30):
     print('''Emprestimo {}Negado{}
              O Valor da Parcela R${:.2f} excede 30% do seu salário
           '''.format(cores['txVermelho'], cores['limpa'], prestacao))
->>>>>>> Stashed changes
+

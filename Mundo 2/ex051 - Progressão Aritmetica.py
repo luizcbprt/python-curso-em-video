@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('{:^50}'.format(' Progressão Aritmética'))
 print('==' * 25)
@@ -16,7 +16,7 @@ for cont in range(1, 11):
         soma += razao
     print('{} ->'.format(soma), end=' ')
 print('\nSoma total da PA: {}'.format(soma))
-=======
+
 print('==' * 25)
 print('{:^50}'.format(' Progressão Aritmética'))
 print('==' * 25)
@@ -34,4 +34,4 @@ for cont in range(1, 11):
         soma += razao
     print('{} ->'.format(soma), end=' ')
 print('\nSoma total da PA: {}'.format(soma))
->>>>>>> Stashed changes
+

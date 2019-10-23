@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 nome = input('Informe um Nome Completo: ')
 
 nome_separado = nome.split()
@@ -11,7 +11,7 @@ print('''
     O Ultimo nome é {}
     
 '''.format(nome, primeiro_nome, ultimo_nome))
-=======
+
 nome = input('Informe um Nome Completo: ')
 
 nome_separado = nome.split()
@@ -24,4 +24,4 @@ print('''
     O Ultimo nome é {}
     
 '''.format(nome, primeiro_nome, ultimo_nome))
->>>>>>> Stashed changes
+

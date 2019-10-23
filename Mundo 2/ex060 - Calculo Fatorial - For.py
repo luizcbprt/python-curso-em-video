@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('Calculo Fatorial - For'.center(50, ' '))
 print('==' * 25)
@@ -10,7 +10,7 @@ for i in range(num, 0, -1):
     print(' x ' if i != 1 else ' = ', end='')
     fatorial *= i
 print(fatorial)
-=======
+
 print('==' * 25)
 print('Calculo Fatorial - For'.center(50, ' '))
 print('==' * 25)
@@ -22,4 +22,4 @@ for i in range(num, 0, -1):
     print(' x ' if i != 1 else ' = ', end='')
     fatorial *= i
 print(fatorial)
->>>>>>> Stashed changes
+

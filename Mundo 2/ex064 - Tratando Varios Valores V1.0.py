@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txCiano':'\033[1;36m',
          'txAzul':'\033[1;34m'}
@@ -15,7 +15,7 @@ while num != 999:
         qtdDigitado += 1
         soma += num
 print('Numeros Informados: {}. Soma Total {}'.format(qtdDigitado, soma))
-=======
+
 cores = {'limpa':'\033[m',
          'txCiano':'\033[1;36m',
          'txAzul':'\033[1;34m'}
@@ -32,4 +32,4 @@ while num != 999:
         qtdDigitado += 1
         soma += num
 print('Numeros Informados: {}. Soma Total {}'.format(qtdDigitado, soma))
->>>>>>> Stashed changes
+

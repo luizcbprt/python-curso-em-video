@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 lista = []
 lista.append(6)
 lista.append(2)
@@ -11,7 +11,7 @@ for val in lista:
 
 for pos, val in enumerate(lista):
     print(f'O valor {val} está na posicao {pos}')
-=======
+
 lista = []
 lista.append(6)
 lista.append(2)
@@ -24,4 +24,4 @@ for val in lista:
 
 for pos, val in enumerate(lista):
     print(f'O valor {val} está na posicao {pos}')
->>>>>>> Stashed changes
+

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('Cadastro de Trabalho'.center(50, ' '))
 print('-=' * 25)
@@ -28,7 +28,7 @@ else:
 print('*=' * 30)
 for key, value in pessoa.items():
     print(f'{key} tem o valor {value}')
-=======
+
 print('-=' * 25)
 print('Cadastro de Trabalho'.center(50, ' '))
 print('-=' * 25)
@@ -58,4 +58,4 @@ else:
 print('*=' * 30)
 for key, value in pessoa.items():
     print(f'{key} tem o valor {value}')
->>>>>>> Stashed changes
+

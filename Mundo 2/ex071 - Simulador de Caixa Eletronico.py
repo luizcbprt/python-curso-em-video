@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('{:-^50}'.format(' Simulador de Caixa Eletronico '))
 print('-=' * 25)
@@ -28,7 +28,7 @@ print(f'Total de {qtd50} células de R$50')
 print(f'Total de {qtd20} cédulas de R$20')
 print(f'Total de {qtd10} céduas de R$10')
 print(f'Total de {qtd1} cédulas de R$1')
-=======
+
 print('-=' * 25)
 print('{:-^50}'.format(' Simulador de Caixa Eletronico '))
 print('-=' * 25)
@@ -58,4 +58,4 @@ print(f'Total de {qtd50} células de R$50')
 print(f'Total de {qtd20} cédulas de R$20')
 print(f'Total de {qtd10} céduas de R$10')
 print(f'Total de {qtd1} cédulas de R$1')
->>>>>>> Stashed changes
+

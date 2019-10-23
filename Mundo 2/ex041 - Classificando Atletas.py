@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from datetime import date
 
 cores = {'limpa':'\033[m',
@@ -27,7 +27,7 @@ elif idade == 20:
     print('Nascidos em {}, com {} anos são da categoria {}SENIOR{}'.format(ano_nasc, idade, cores['txAzul'], cores['limpa']))
 else:
     print('Nascidos em {}, com {} anos são da categoria {}MASTER{}'.format(ano_nasc, idade, cores['txRoxo'], cores['limpa']))
-=======
+
 from datetime import date
 
 cores = {'limpa':'\033[m',
@@ -56,4 +56,4 @@ elif idade == 20:
     print('Nascidos em {}, com {} anos são da categoria {}SENIOR{}'.format(ano_nasc, idade, cores['txAzul'], cores['limpa']))
 else:
     print('Nascidos em {}, com {} anos são da categoria {}MASTER{}'.format(ano_nasc, idade, cores['txRoxo'], cores['limpa']))
->>>>>>> Stashed changes
+

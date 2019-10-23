@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('=-' * 25)
 print('Analise de dados do grupo'.center(50, ' '))
 print('=-' * 25)
@@ -28,7 +28,7 @@ print('--' * 25)
 print(f'Quantidade de maiores de 18 anos: {qtd_18}')
 print(f'Quantidade de Homens: {qtd_homem}')
 print(f'Quantidade de Mulheres menores de 20 anos: {qtd_mulher_20}')
-=======
+
 print('=-' * 25)
 print('Analise de dados do grupo'.center(50, ' '))
 print('=-' * 25)
@@ -58,4 +58,4 @@ print('--' * 25)
 print(f'Quantidade de maiores de 18 anos: {qtd_18}')
 print(f'Quantidade de Homens: {qtd_homem}')
 print(f'Quantidade de Mulheres menores de 20 anos: {qtd_mulher_20}')
->>>>>>> Stashed changes
+

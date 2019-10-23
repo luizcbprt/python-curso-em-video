@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txVermelho':'\033[1;31m',
@@ -26,7 +26,7 @@ elif base == 3:
     print('{}O Numero {} convertido em Hexadecimal é {}{}'.format(cores['txVerde'], numero, resultado, cores['limpa']))
 else:
     print('Voce sabe ler? Então por que escolheu uma opção inválida?')
-=======
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txVermelho':'\033[1;31m',
@@ -54,4 +54,4 @@ elif base == 3:
     print('{}O Numero {} convertido em Hexadecimal é {}{}'.format(cores['txVerde'], numero, resultado, cores['limpa']))
 else:
     print('Voce sabe ler? Então por que escolheu uma opção inválida?')
->>>>>>> Stashed changes
+

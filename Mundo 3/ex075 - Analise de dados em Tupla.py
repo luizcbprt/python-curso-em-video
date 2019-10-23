@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('{:-^50}'.format(' Analise de Dados em Tupla'))
 print('-=' * 25)
@@ -18,7 +18,7 @@ print('Os numeros pares são: ', end='')
 for par in numeros:
     if par % 2 == 0:
         print(par, end=' ')
-=======
+
 print('-=' * 25)
 print('{:-^50}'.format(' Analise de Dados em Tupla'))
 print('-=' * 25)
@@ -38,4 +38,4 @@ print('Os numeros pares são: ', end='')
 for par in numeros:
     if par % 2 == 0:
         print(par, end=' ')
->>>>>>> Stashed changes
+

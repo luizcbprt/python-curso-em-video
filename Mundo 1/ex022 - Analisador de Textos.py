@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 nome = input('Informe seu nome Completo: ')
 maiusc = nome.upper()
 minusc = nome.lower()
@@ -18,7 +18,7 @@ Primeiro Nome: {}
     
     
 """.format(maiusc, minusc, qtd_s_espaco, qtd_prim_nome, primeiro_nome))
-=======
+
 nome = input('Informe seu nome Completo: ')
 maiusc = nome.upper()
 minusc = nome.lower()
@@ -38,4 +38,4 @@ Primeiro Nome: {}
     
     
 """.format(maiusc, minusc, qtd_s_espaco, qtd_prim_nome, primeiro_nome))
->>>>>>> Stashed changes
+

@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txCiano':'\033[1;36m',
@@ -18,7 +18,7 @@ elif num1 < num2:
     print('O Numero {}{}{} é menor que o {}{}{}'.format(cores['txVermelho'], num1, cores['limpa'], cores['txVerde'], num2, cores['limpa']))
 else:
     print('Os Numeros {} e {} são Iguais'.format(num1, num2))
-=======
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txCiano':'\033[1;36m',
@@ -38,4 +38,4 @@ elif num1 < num2:
     print('O Numero {}{}{} é menor que o {}{}{}'.format(cores['txVermelho'], num1, cores['limpa'], cores['txVerde'], num2, cores['limpa']))
 else:
     print('Os Numeros {} e {} são Iguais'.format(num1, num2))
->>>>>>> Stashed changes
+

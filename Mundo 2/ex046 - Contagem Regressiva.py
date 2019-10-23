@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from time import sleep
 
 cores = {'limpa':'\033[m',
@@ -11,7 +11,7 @@ for contador in range(10, -1, -1):
     print(contador)
     sleep(1)
 print(' POWW! CABUMM')
-=======
+
 from time import sleep
 
 cores = {'limpa':'\033[m',
@@ -24,4 +24,4 @@ for contador in range(10, -1, -1):
     print(contador)
     sleep(1)
 print(' POWW! CABUMM')
->>>>>>> Stashed changes
+

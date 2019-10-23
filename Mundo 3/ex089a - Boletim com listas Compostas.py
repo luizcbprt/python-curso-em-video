@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('Boletim com Listas Compostas - Metodo 2')
 print('-=' * 25)
@@ -31,7 +31,7 @@ while True:
     if opc <=  len(lstFicha) - 1:
         print(f'Notas de {lstFicha[opc][0]}: {lstFicha[opc][1]}')
 print('Fim')
-=======
+
 print('-=' * 25)
 print('Boletim com Listas Compostas - Metodo 2')
 print('-=' * 25)
@@ -64,4 +64,4 @@ while True:
     if opc <=  len(lstFicha) - 1:
         print(f'Notas de {lstFicha[opc][0]}: {lstFicha[opc][1]}')
 print('Fim')
->>>>>>> Stashed changes
+

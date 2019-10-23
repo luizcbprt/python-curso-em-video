@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from random import randint, choice
 from time import sleep
 
@@ -36,7 +36,7 @@ for jogo in range(0, len(lstJogos)):
     print(lstJogos[jogo])
 
 print('FIM')
-=======
+
 from random import randint, choice
 from time import sleep
 
@@ -74,4 +74,4 @@ for jogo in range(0, len(lstJogos)):
     print(lstJogos[jogo])
 
 print('FIM')
->>>>>>> Stashed changes
+

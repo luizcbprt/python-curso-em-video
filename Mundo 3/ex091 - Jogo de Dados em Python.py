@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txVermelho':'\033[1;31m'}
 print('-=' * 25)
@@ -29,7 +29,7 @@ for pos, jogador in enumerate(ordenado):
     print(f'{pos + 1}º Lugar: {jogador[0]} com {jogador[1]}')
 print()
 print('FIM')
-=======
+
 cores = {'limpa':'\033[m',
          'txVermelho':'\033[1;31m'}
 print('-=' * 25)
@@ -60,4 +60,4 @@ for pos, jogador in enumerate(ordenado):
     print(f'{pos + 1}º Lugar: {jogador[0]} com {jogador[1]}')
 print()
 print('FIM')
->>>>>>> Stashed changes
+

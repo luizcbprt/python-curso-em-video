@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'azul':'\033[1;34m',
          'vermelho':'\033[1;31m'}
@@ -38,7 +38,7 @@ print(f'O Total da compra foi de R${totCompra:.2f}')
 print(f'Foram comprados {qtd1000} produtos acima de R$1000')
 print(f'O Produto de maior valor foi {cores["vermelho"]}{nomeMaior}{cores["limpa"]}, custando {cores["vermelho"]}R${valMaior:.2f}{cores["limpa"]}!')
 print(f'O produto de menor Valor foi {nomeMenor}, custando R${valMenor:.2f}')
-=======
+
 cores = {'limpa':'\033[m',
          'azul':'\033[1;34m',
          'vermelho':'\033[1;31m'}
@@ -78,4 +78,4 @@ print(f'O Total da compra foi de R${totCompra:.2f}')
 print(f'Foram comprados {qtd1000} produtos acima de R$1000')
 print(f'O Produto de maior valor foi {cores["vermelho"]}{nomeMaior}{cores["limpa"]}, custando {cores["vermelho"]}R${valMaior:.2f}{cores["limpa"]}!')
 print(f'O produto de menor Valor foi {nomeMenor}, custando R${valMenor:.2f}')
->>>>>>> Stashed changes
+

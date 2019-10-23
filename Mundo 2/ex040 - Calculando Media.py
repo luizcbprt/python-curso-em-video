@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txCiano':'\033[1;36m',
@@ -23,7 +23,7 @@ elif media >= 5 and media <= 6.9:
 elif media >= 7:
     print('Sua Média foi de {}'.format(media))
     print('Aluno {} foi {}APROVADO{}'.format(nome, cores['txVerde'], cores['limpa']))
-=======
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txCiano':'\033[1;36m',
@@ -48,4 +48,4 @@ elif media >= 5 and media <= 6.9:
 elif media >= 7:
     print('Sua Média foi de {}'.format(media))
     print('Aluno {} foi {}APROVADO{}'.format(nome, cores['txVerde'], cores['limpa']))
->>>>>>> Stashed changes
+

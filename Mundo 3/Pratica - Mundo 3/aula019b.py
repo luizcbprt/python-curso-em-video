@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 brasil = list()
 estado = dict()
 
@@ -11,7 +11,7 @@ print(brasil)
 for estd in brasil:
     for key, value in estd.items():
         print(f'O campo {key} tem valor {value}')
-=======
+
 brasil = list()
 estado = dict()
 
@@ -24,4 +24,4 @@ print(brasil)
 for estd in brasil:
     for key, value in estd.items():
         print(f'O campo {key} tem valor {value}')
->>>>>>> Stashed changes
+

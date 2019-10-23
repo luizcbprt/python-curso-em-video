@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txVermelho':'\033[1;31m'}
 print('-=' * 25)
@@ -14,7 +14,7 @@ for palavra in familia:
         if letra in 'AaEeIiOoUu':
             print(letra, end=' ')
     print(' ')
-=======
+
 cores = {'limpa':'\033[m',
          'txVermelho':'\033[1;31m'}
 print('-=' * 25)
@@ -30,4 +30,4 @@ for palavra in familia:
         if letra in 'AaEeIiOoUu':
             print(letra, end=' ')
     print(' ')
->>>>>>> Stashed changes
+

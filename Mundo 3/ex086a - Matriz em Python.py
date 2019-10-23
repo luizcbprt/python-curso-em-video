@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print(' Matriz em Python - Metodo 2')
 print('-=' * 25)
@@ -18,7 +18,7 @@ for indice in matriz[1]:
 print()
 for indice in matriz[2]:
     print(f'[ {indice} ]', end='')
-=======
+
 print('-=' * 25)
 print(' Matriz em Python - Metodo 2')
 print('-=' * 25)

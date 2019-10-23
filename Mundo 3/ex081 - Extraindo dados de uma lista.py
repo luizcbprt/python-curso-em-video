@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print(' Extraindo dados de uma lista '.center(50, ' '))
 print('-=' * 25)
@@ -27,7 +27,7 @@ if 5 in lista:
     print('O Numero 5 está na lista')
 else:
     print('O numero 5 NAO foi digitado')
-=======
+
 print('-=' * 25)
 print(' Extraindo dados de uma lista '.center(50, ' '))
 print('-=' * 25)
@@ -56,4 +56,4 @@ if 5 in lista:
     print('O Numero 5 está na lista')
 else:
     print('O numero 5 NAO foi digitado')
->>>>>>> Stashed changes
+

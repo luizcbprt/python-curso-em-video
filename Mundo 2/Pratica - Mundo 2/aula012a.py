@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':':\033[m]',
          'negrito':'\033[1m',
          'sublinhado':'\033[4m',
@@ -22,7 +22,7 @@ cores = {'limpa':':\033[m]',
 print(cores['txCiano'], '==' * 25, cores['limpa'])
 print('{}Testes Aula 12 - MUNDO 2{}'.format(cores['txAzul'], cores['limpa']))
 print(cores['txCiano'], '==' * 25, cores['limpa'])
-=======
+
 cores = {'limpa':':\033[m]',
          'negrito':'\033[1m',
          'sublinhado':'\033[4m',
@@ -46,4 +46,4 @@ cores = {'limpa':':\033[m]',
 print(cores['txCiano'], '==' * 25, cores['limpa'])
 print('{}Testes Aula 12 - MUNDO 2{}'.format(cores['txAzul'], cores['limpa']))
 print(cores['txCiano'], '==' * 25, cores['limpa'])
->>>>>>> Stashed changes
+

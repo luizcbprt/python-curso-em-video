@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('==' * 25)
 print('Varios Numeros com Flag'.center(50 , ' '))
 print('==' * 25)
@@ -12,7 +12,7 @@ while True:
     qtdNum += 1
     soma += num
 print(f'Foram informados {qtdNum} numeros, e a soma entre eles é {soma}')
-=======
+
 print('==' * 25)
 print('Varios Numeros com Flag'.center(50 , ' '))
 print('==' * 25)
@@ -26,4 +26,4 @@ while True:
     qtdNum += 1
     soma += num
 print(f'Foram informados {qtdNum} numeros, e a soma entre eles é {soma}')
->>>>>>> Stashed changes
+

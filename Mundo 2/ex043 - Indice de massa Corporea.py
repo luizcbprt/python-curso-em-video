@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txCiano':'\033[1;36m',
@@ -24,7 +24,7 @@ elif 30 < imc <= 40:
     print('Seu IMC é de {:.2f}. Voce está com Obesidade'.format(imc))
 else:
     print('Seu IMC é de {:.2f}. Voce está com Obsesidade Mórbida'.format(imc))
-=======
+
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
          'txCiano':'\033[1;36m',
@@ -50,4 +50,4 @@ elif 30 < imc <= 40:
     print('Seu IMC é de {:.2f}. Voce está com Obesidade'.format(imc))
 else:
     print('Seu IMC é de {:.2f}. Voce está com Obsesidade Mórbida'.format(imc))
->>>>>>> Stashed changes
+

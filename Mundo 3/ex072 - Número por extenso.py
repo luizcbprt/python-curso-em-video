@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 print('-=' * 25)
 print('{:-^50}'.format(' Numeros por extenso '))
 print('-=' * 25)
@@ -15,7 +15,7 @@ while True:
         break
     print('Valor Inválido. Tente novamente')
 print(f'Você digitou o Número: {numeros[escolha]}')
-=======
+
 print('-=' * 25)
 print('{:-^50}'.format(' Numeros por extenso '))
 print('-=' * 25)
@@ -32,4 +32,4 @@ while True:
         break
     print('Valor Inválido. Tente novamente')
 print(f'Você digitou o Número: {numeros[escolha]}')
->>>>>>> Stashed changes
+

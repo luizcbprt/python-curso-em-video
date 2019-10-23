@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 cores = {'limpa':'\033[m',
          'txRoxo':'\033[1;35m'}
 print('-=' * 25)
@@ -18,7 +18,7 @@ print(f'\nO menor valor foi {min(lista)} nas posições: ', end='')
 for posicao, val in enumerate(lista):
     if val == min(lista):
         print(f'...{posicao}', end='')
-=======
+
 cores = {'limpa':'\033[m',
          'txRoxo':'\033[1;35m'}
 print('-=' * 25)
@@ -38,4 +38,4 @@ print(f'\nO menor valor foi {min(lista)} nas posições: ', end='')
 for posicao, val in enumerate(lista):
     if val == min(lista):
         print(f'...{posicao}', end='')
->>>>>>> Stashed changes
+

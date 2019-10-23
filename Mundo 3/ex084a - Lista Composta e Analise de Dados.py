@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 print('-=' * 25)
 print(' Lista Composta e Analise de Dados - Metodo 2')
 print('-=' * 25)
@@ -39,7 +38,7 @@ print(f'O Menor peso foi {menorPeso}KG. ', end='')
 for tstPeso in lstPrinc:
     if tstPeso[1] == menorPeso:
         print(f'{[tstPeso[0]]}', end='')
-=======
+
 print('-=' * 25)
 print(' Lista Composta e Analise de Dados - Metodo 2')
 print('-=' * 25)
@@ -80,4 +79,3 @@ print(f'O Menor peso foi {menorPeso}KG. ', end='')
 for tstPeso in lstPrinc:
     if tstPeso[1] == menorPeso:
         print(f'{[tstPeso[0]]}', end='')
->>>>>>> Stashed changes

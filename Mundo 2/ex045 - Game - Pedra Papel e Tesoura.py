@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 from random import randint
 from time import sleep
 
@@ -44,7 +44,7 @@ elif usuario == 3 and comp == 2:
 elif usuario == comp:
     print('Você e o Computador jogaram o Mesmo. ', end='')
     print('EMPATE!')
-=======
+
 from random import randint
 from time import sleep
 
@@ -90,4 +90,4 @@ elif usuario == 3 and comp == 2:
 elif usuario == comp:
     print('Você e o Computador jogaram o Mesmo. ', end='')
     print('EMPATE!')
->>>>>>> Stashed changes
+
