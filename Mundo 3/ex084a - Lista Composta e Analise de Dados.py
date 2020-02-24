@@ -10,7 +10,7 @@ while True:
     lstTemp.append(str(input('Informe um Nome: ')))
     lstTemp.append(float(input('Informe um Peso: ')))
 
-    if len(lstPrinc) == 0:
+    if not lstPrinc:
         maiorPeso = menorPeso = lstTemp[1] # Peso
     else:
         if lstTemp[1] > maiorPeso:
@@ -51,7 +51,7 @@ while True:
     lstTemp.append(str(input('Informe um Nome: ')))
     lstTemp.append(float(input('Informe um Peso: ')))
 
-    if len(lstPrinc) == 0:
+    if not lstPrinc:
         maiorPeso = menorPeso = lstTemp[1] # Peso
     else:
         if lstTemp[1] > maiorPeso:

@@ -20,7 +20,7 @@ if prestacao <= (salario  * 0.30):
     print(''' Emprestimo {}Aprovado{}!!
               Sua prestacao será no valor de R${:.2f}
           '''.format(cores['txVerde'], cores['limpa'], prestacao))
-elif prestacao > (salario  * 0.30):
+else:
     print('''Emprestimo {}Negado{}
              O Valor da Parcela R${:.2f} excede 30% do seu salário
           '''.format(cores['txVermelho'], cores['limpa'], prestacao))
@@ -46,7 +46,7 @@ if prestacao <= (salario  * 0.30):
     print(''' Emprestimo {}Aprovado{}!!
               Sua prestacao será no valor de R${:.2f}
           '''.format(cores['txVerde'], cores['limpa'], prestacao))
-elif prestacao > (salario  * 0.30):
+else:
     print('''Emprestimo {}Negado{}
              O Valor da Parcela R${:.2f} excede 30% do seu salário
           '''.format(cores['txVermelho'], cores['limpa'], prestacao))

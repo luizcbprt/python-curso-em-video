@@ -7,12 +7,9 @@ prim_termo = int(input('Informe o primeiro termo da PA: '))
 razao = int(input('Informe a razão da PA: '))
 
 soma = prim_termo
-cont = 0
-
-while cont < 10:
+for cont in range(10):
     print('{} ->'.format(soma), end=' ')
     soma += razao
-    cont += 1
 print('\nSoma total da PA: {}'.format(soma))
 
 print('==' * 25)
@@ -23,11 +20,8 @@ prim_termo = int(input('Informe o primeiro termo da PA: '))
 razao = int(input('Informe a razão da PA: '))
 
 soma = prim_termo
-cont = 0
-
-while cont < 10:
+for _ in range(10):
     print('{} ->'.format(soma), end=' ')
     soma += razao
-    cont += 1
 print('\nSoma total da PA: {}'.format(soma))
 

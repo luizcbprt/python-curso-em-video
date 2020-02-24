@@ -7,7 +7,7 @@ print('-=' * 25)
 
 numeros = ''
 num = 0
-for i in range(0, 5):
+for _ in range(5):
     num = randint(1, 10)
     numeros +=  str(num)
 numTupla = tuple(numeros)
@@ -24,7 +24,7 @@ print('-=' * 25)
 
 numeros = ''
 num = 0
-for i in range(0, 5):
+for _ in range(5):
     num = randint(1, 10)
     numeros +=  str(num)
 numTupla = tuple(numeros)

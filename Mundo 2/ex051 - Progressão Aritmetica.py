@@ -10,10 +10,7 @@ soma = 0
 contador = 0
 for cont in range(1, 11):
     contador += 1
-    if cont == 1:
-        soma += prim_termo + razao
-    else:
-        soma += razao
+    soma += prim_termo + razao if cont == 1 else razao
     print('{} ->'.format(soma), end=' ')
 print('\nSoma total da PA: {}'.format(soma))
 
@@ -28,10 +25,7 @@ soma = 0
 contador = 0
 for cont in range(1, 11):
     contador += 1
-    if cont == 1:
-        soma += prim_termo + razao
-    else:
-        soma += razao
+    soma += prim_termo + razao if cont == 1 else razao
     print('{} ->'.format(soma), end=' ')
 print('\nSoma total da PA: {}'.format(soma))
 

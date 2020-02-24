@@ -17,8 +17,8 @@ print('Comi pra caramba')
 
 print('--' * 25)
 #Maneira 2
-for cont in range(0, len(lanche)):
-    print(f'Comi {lanche[cont]}')
+for item in lanche:
+    print(f'Comi {item}')
 
 print('--' * 25)
 #Maneira 3
@@ -46,8 +46,8 @@ print('Comi pra caramba')
 
 print('--' * 25)
 #Maneira 2
-for cont in range(0, len(lanche)):
-    print(f'Comi {lanche[cont]}')
+for item_ in lanche:
+    print(f'Comi {item_}')
 
 print('--' * 25)
 #Maneira 3

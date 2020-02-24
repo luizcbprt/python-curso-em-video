@@ -1,8 +1,8 @@
 
-brasil = list()
-estado = dict()
+brasil = []
+estado = {}
 
-for c in range(0,3):
+for c in range(3):
     estado['uf'] = str(input('Informe a UF: '))
     estado['sigla'] = str(input('Informe a Sigla: '))
     brasil.append(estado.copy())
@@ -12,10 +12,10 @@ for estd in brasil:
     for key, value in estd.items():
         print(f'O campo {key} tem valor {value}')
 
-brasil = list()
-estado = dict()
+brasil = []
+estado = {}
 
-for c in range(0,3):
+for _ in range(3):
     estado['uf'] = str(input('Informe a UF: '))
     estado['sigla'] = str(input('Informe a Sigla: '))
     brasil.append(estado.copy())

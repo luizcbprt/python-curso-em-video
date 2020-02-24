@@ -7,7 +7,9 @@ def notas(*notas, situac=False):
     """
     dictResult = {}
     totNotas = 0
-    for indice, nt in enumerate(notas): # Enumerate para pegar o indice da iteração
+    for indice, nt in enumerate(
+        notas
+    ):  # Enumerate para pegar o indice da iteração
         # Armazena a Maior e Menor Nota
         if indice == 0:
             maiorNota = nt
@@ -20,24 +22,26 @@ def notas(*notas, situac=False):
 
         # Soma as notas em uma variável para pegar a média
         totNotas += nt
-    medNotas = totNotas / len(notas) # Calcula a Media
+    medNotas = totNotas / len(notas)  # Calcula a Media
 
     # Atualiza as informacoes no dicionario
-    dictResult.update({
-        'Quantidade de Notas':len(notas),
-        'Maior Nota':maiorNota,
-        'Menor Nota':menorNota,
-        'Media Turma':medNotas
-    })
+    dictResult.update(
+        {
+            'Quantidade de Notas': len(notas),
+            'Maior Nota': maiorNota,
+            'Menor Nota': menorNota,
+            'Media Turma': medNotas,
+        }
+    )
 
     # Se foi informado parametro situa == True então atualiza o dicionario com a situacao da turma
     if situac == True:
         if medNotas >= 7:
-            dictResult.update({'Situacao':'BOA'})
-        elif medNotas >= 5 and medNotas < 7:
-            dictResult.update({'Situacao':'Mais ou Menos'})
+            dictResult.update({'Situacao': 'BOA'})
+        elif medNotas >= 5:
+            dictResult.update({'Situacao': 'Mais ou Menos'})
         else:
-            dictResult.update({'Situacao':'Ruim'})
+            dictResult.update({'Situacao': 'Ruim'})
 
     print(dictResult)
 

@@ -6,8 +6,8 @@ print('-=' * 25)
 matriz = [[0,0,0], [0,0,0], [0,0,0]]
 somaPar = somaCol3 = maiorLinha2 = 0
 
-for linha in range(0,3):
-    for coluna in range(0,3):
+for linha in range(3):
+    for coluna in range(3):
         num = int(input(f'Infome o numero para [{linha},{coluna}]: '))
         matriz[linha][coluna] = num
         if num % 2 == 0: # Soma os Pares
@@ -21,8 +21,8 @@ for linha in range(0,3):
                 maiorLinha2 = num
 
 print('--' * 25)
-for linha in range(0,3):
-    for coluna in range(0,3):
+for linha in range(3):
+    for coluna in range(3):
         print(f'[{matriz[linha][coluna]:^4}]', end='')
     print()
 print('--' * 25)
@@ -37,8 +37,8 @@ print('-=' * 25)
 matriz = [[0,0,0], [0,0,0], [0,0,0]]
 somaPar = somaCol3 = maiorLinha2 = 0
 
-for linha in range(0,3):
-    for coluna in range(0,3):
+for linha in range(3):
+    for coluna in range(3):
         num = int(input(f'Infome o numero para [{linha},{coluna}]: '))
         matriz[linha][coluna] = num
         if num % 2 == 0: # Soma os Pares
@@ -52,8 +52,8 @@ for linha in range(0,3):
                 maiorLinha2 = num
 
 print('--' * 25)
-for linha in range(0,3):
-    for coluna in range(0,3):
+for linha in range(3):
+    for coluna in range(3):
         print(f'[{matriz[linha][coluna]:^4}]', end='')
     print()
 print('--' * 25)

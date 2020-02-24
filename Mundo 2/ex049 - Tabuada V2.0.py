@@ -6,6 +6,6 @@ for cont in range(0, 11):
 
 num = int(input('Informe um Numero para Calcular a Tabuada: '))
 
-for cont in range(0, 11):
+for cont in range(11):
     print('[ {} x {} ] = {} '.format(num, cont, num * cont))
 
