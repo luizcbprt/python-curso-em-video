@@ -14,7 +14,7 @@ if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
         print('Poderá ser Formado um Triangulo EQUILÁTERO')
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
         print('Poderá ser Formado um Triangulo ISÓCELES')
-    elif lado1 != lado2 != lado3 != lado1:
+    else:
         print('Poderá ser Formado um Triangulo ESCALENO')
 else:
     print('Não poderá ser formado um Triangulo')
@@ -34,7 +34,7 @@ if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
         print('Poderá ser Formado um Triangulo EQUILÁTERO')
     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
         print('Poderá ser Formado um Triangulo ISÓCELES')
-    elif lado1 != lado2 != lado3 != lado1:
+    else:
         print('Poderá ser Formado um Triangulo ESCALENO')
 else:
     print('Não poderá ser formado um Triangulo')

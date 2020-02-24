@@ -18,15 +18,35 @@ ano_nasc = int(input('Informe o Ano de Nascimento: '))
 idade = ano_atual - ano_nasc
 
 if idade <= 9:
-    print('Nascidos em {}, com {} anos são da categoria {}MIRIM{}'.format(ano_nasc, idade, cores['txAmarelo'], cores['limpa']))
-elif idade > 9 and idade <= 14:
-    print('Nascidos em {}, com {} anos são da categoria {}INFANTIL{}'.format(ano_nasc, idade, cores['txCiano'], cores['limpa']))
-elif idade > 14 and idade <= 19:
-    print('Nascidos em {}, com {} anos são da categoria {}JUNIOR{}'.format(ano_nasc, idade, cores['txVerde'], cores['limpa']))
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}MIRIM{}'.format(
+            ano_nasc, idade, cores['txAmarelo'], cores['limpa']
+        )
+    )
+elif idade <= 14:
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}INFANTIL{}'.format(
+            ano_nasc, idade, cores['txCiano'], cores['limpa']
+        )
+    )
+elif idade <= 19:
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}JUNIOR{}'.format(
+            ano_nasc, idade, cores['txVerde'], cores['limpa']
+        )
+    )
 elif idade == 20:
-    print('Nascidos em {}, com {} anos são da categoria {}SENIOR{}'.format(ano_nasc, idade, cores['txAzul'], cores['limpa']))
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}SENIOR{}'.format(
+            ano_nasc, idade, cores['txAzul'], cores['limpa']
+        )
+    )
 else:
-    print('Nascidos em {}, com {} anos são da categoria {}MASTER{}'.format(ano_nasc, idade, cores['txRoxo'], cores['limpa']))
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}MASTER{}'.format(
+            ano_nasc, idade, cores['txRoxo'], cores['limpa']
+        )
+    )
 
 from datetime import date
 
@@ -47,13 +67,33 @@ ano_nasc = int(input('Informe o Ano de Nascimento: '))
 idade = ano_atual - ano_nasc
 
 if idade <= 9:
-    print('Nascidos em {}, com {} anos são da categoria {}MIRIM{}'.format(ano_nasc, idade, cores['txAmarelo'], cores['limpa']))
-elif idade > 9 and idade <= 14:
-    print('Nascidos em {}, com {} anos são da categoria {}INFANTIL{}'.format(ano_nasc, idade, cores['txCiano'], cores['limpa']))
-elif idade > 14 and idade <= 19:
-    print('Nascidos em {}, com {} anos são da categoria {}JUNIOR{}'.format(ano_nasc, idade, cores['txVerde'], cores['limpa']))
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}MIRIM{}'.format(
+            ano_nasc, idade, cores['txAmarelo'], cores['limpa']
+        )
+    )
+elif idade <= 14:
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}INFANTIL{}'.format(
+            ano_nasc, idade, cores['txCiano'], cores['limpa']
+        )
+    )
+elif idade <= 19:
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}JUNIOR{}'.format(
+            ano_nasc, idade, cores['txVerde'], cores['limpa']
+        )
+    )
 elif idade == 20:
-    print('Nascidos em {}, com {} anos são da categoria {}SENIOR{}'.format(ano_nasc, idade, cores['txAzul'], cores['limpa']))
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}SENIOR{}'.format(
+            ano_nasc, idade, cores['txAzul'], cores['limpa']
+        )
+    )
 else:
-    print('Nascidos em {}, com {} anos são da categoria {}MASTER{}'.format(ano_nasc, idade, cores['txRoxo'], cores['limpa']))
+    print(
+        'Nascidos em {}, com {} anos são da categoria {}MASTER{}'.format(
+            ano_nasc, idade, cores['txRoxo'], cores['limpa']
+        )
+    )
 

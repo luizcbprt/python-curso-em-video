@@ -12,7 +12,7 @@ def linha(texto):
 def sorteia():
     from random import randint
     print(f'Sorteando 5 valores. ', end='')
-    for num in range(0,5):
+    for _ in range(5):
         sorteado = randint(1,100)
         lista.append(sorteado)
         print(f'{sorteado}', end=' ')
@@ -20,11 +20,8 @@ def sorteia():
 
 
 def somaPar():
-    soma = 0
     print(f'Somando os valores pares de {lista}. Resultado ', end='')
-    for num in lista:
-        if num % 2 == 0:
-            soma += num
+    soma = sum(num for num in lista if num % 2 == 0)
     print(f'{soma}')
 
 

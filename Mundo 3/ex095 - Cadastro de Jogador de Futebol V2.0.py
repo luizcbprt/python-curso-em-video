@@ -14,7 +14,7 @@ while True:
 
     print('\n', '{:-^50}'.format(' QTD Gols em cada Partida '))
     # For para ler a quantidade de Gols
-    for gols in range(0,qtdJogos):
+    for gols in range(qtdJogos):
         golsEfetuados = int(input(f'Gols efetuados na partida {gols}: '))
         lstGols.append(golsEfetuados)
 
@@ -64,7 +64,7 @@ while True:
 
     print('\n', '{:-^50}'.format(' QTD Gols em cada Partida '))
     # For para ler a quantidade de Gols
-    for gols in range(0,qtdJogos):
+    for gols in range(qtdJogos):
         golsEfetuados = int(input(f'Gols efetuados na partida {gols}: '))
         lstGols.append(golsEfetuados)
 

@@ -32,9 +32,7 @@ print('\n', '-*' * 25)
 print(f'Ao total foram cadastradas {len(lstPessoas)} pessoas.')
 
 #Calcula Media de Idade
-totIdade = 0
-for pessoa in lstPessoas:
-    totIdade += pessoa["idade"]
+totIdade = sum(pessoa["idade"] for pessoa in lstPessoas)
 mediaIdade = totIdade / len(lstPessoas)
 print(f'A Media de Idade foi {mediaIdade:.2f} anos')
 
@@ -83,9 +81,7 @@ print('\n', '-*' * 25)
 print(f'Ao total foram cadastradas {len(lstPessoas)} pessoas.')
 
 #Calcula Media de Idade
-totIdade = 0
-for pessoa in lstPessoas:
-    totIdade += pessoa["idade"]
+totIdade = sum(pessoa["idade"] for pessoa in lstPessoas)
 mediaIdade = totIdade / len(lstPessoas)
 print(f'A Media de Idade foi {mediaIdade:.2f} anos')
 

@@ -1,8 +1,6 @@
 def dobrar(lista):
-    pos = 0
-    while pos < len(lista):
-        lista[pos] *= 2
-        pos += 1
+    for item in lista:
+        item *= 2
 
 
 valores = [4, 6, 0, 1, 2]
@@ -12,9 +10,7 @@ print(valores)
 print('-=' * 30)
 
 def soma(*valores):
-    s = 0
-    for num in valores:
-        s += num
+    s = sum(valores)
     print(f'Somando os valores {valores} temos {s}')
 
 

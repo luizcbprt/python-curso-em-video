@@ -7,7 +7,7 @@ matriz = [[], [], [],
           [], [], [],
           [], [], []]
 
-for indice in range(0,9):
+for indice in range(9):
     num = int(input(f'Informe o {indice + 1}º Numero: '))
     matriz[indice].append(num)
 
@@ -25,7 +25,7 @@ matriz = [[], [], [],
           [], [], [],
           [], [], []]
 
-for indice in range(0,9):
+for indice in range(9):
     num = int(input(f'Informe o {indice + 1}º Numero: '))
     matriz[indice].append(num)
 

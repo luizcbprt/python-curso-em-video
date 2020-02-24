@@ -15,14 +15,30 @@ nota2 = float(input('Informe a Segunda Nota: '))
 media = (nota1 + nota2) / 2
 
 if media < 5:
-    print('Sua Media foi de {}{}{}.'.format(cores['txVermelho'], media, cores['limpa']))
-    print('Aluno {} está {}REPROVADO{}'.format(nome, cores['txVermelho'], cores['limpa']))
-elif media >= 5 and media <= 6.9:
+    print(
+        'Sua Media foi de {}{}{}.'.format(
+            cores['txVermelho'], media, cores['limpa']
+        )
+    )
+    print(
+        'Aluno {} está {}REPROVADO{}'.format(
+            nome, cores['txVermelho'], cores['limpa']
+        )
+    )
+elif media <= 6.9:
     print('Sua Media foi de {}'.format(media))
-    print('Aluno {} está de {}RECUPERAÇÃO{}'.format(nome, cores['txCiano'], cores['limpa']))
+    print(
+        'Aluno {} está de {}RECUPERAÇÃO{}'.format(
+            nome, cores['txCiano'], cores['limpa']
+        )
+    )
 elif media >= 7:
     print('Sua Média foi de {}'.format(media))
-    print('Aluno {} foi {}APROVADO{}'.format(nome, cores['txVerde'], cores['limpa']))
+    print(
+        'Aluno {} foi {}APROVADO{}'.format(
+            nome, cores['txVerde'], cores['limpa']
+        )
+    )
 
 cores = {'limpa':'\033[m',
          'txAzul':'\033[1;34m',
@@ -40,12 +56,28 @@ nota2 = float(input('Informe a Segunda Nota: '))
 media = (nota1 + nota2) / 2
 
 if media < 5:
-    print('Sua Media foi de {}{}{}.'.format(cores['txVermelho'], media, cores['limpa']))
-    print('Aluno {} está {}REPROVADO{}'.format(nome, cores['txVermelho'], cores['limpa']))
-elif media >= 5 and media <= 6.9:
+    print(
+        'Sua Media foi de {}{}{}.'.format(
+            cores['txVermelho'], media, cores['limpa']
+        )
+    )
+    print(
+        'Aluno {} está {}REPROVADO{}'.format(
+            nome, cores['txVermelho'], cores['limpa']
+        )
+    )
+elif media <= 6.9:
     print('Sua Media foi de {}'.format(media))
-    print('Aluno {} está de {}RECUPERAÇÃO{}'.format(nome, cores['txCiano'], cores['limpa']))
+    print(
+        'Aluno {} está de {}RECUPERAÇÃO{}'.format(
+            nome, cores['txCiano'], cores['limpa']
+        )
+    )
 elif media >= 7:
     print('Sua Média foi de {}'.format(media))
-    print('Aluno {} foi {}APROVADO{}'.format(nome, cores['txVerde'], cores['limpa']))
+    print(
+        'Aluno {} foi {}APROVADO{}'.format(
+            nome, cores['txVerde'], cores['limpa']
+        )
+    )
 

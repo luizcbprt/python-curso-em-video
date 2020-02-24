@@ -11,7 +11,7 @@ def voto(anoNasc=2018):
     idade = date.today().year - anoNasc # Calcula o Ano de Nascimento
     if idade >= 65:
         return f'A Pessoa tem {idade} anos. Voto é OPCIONAL'
-    elif idade >= 18 and idade < 65:
+    elif idade >= 18:
         return f'A Pessoa tem {idade} anos. Voto é OBRIGATORIO'
     else:
         return f'A Pessoa tem {idade} anos. Nao Vota'

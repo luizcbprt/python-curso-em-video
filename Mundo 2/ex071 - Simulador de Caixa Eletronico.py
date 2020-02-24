@@ -10,13 +10,13 @@ while True:
     if valSaque >= 50:
         qtd50 += 1
         valSaque -= 50
-    elif valSaque < 50 and valSaque >= 20:
+    elif valSaque >= 20:
         qtd20 += 1
         valSaque -= 20
-    elif valSaque < 20 and valSaque >= 10:
+    elif valSaque >= 10:
         qtd10 += 1
         valSaque -= 10
-    elif valSaque < 10:
+    else:
         qtd1 += 1
         valSaque -= 1
 
@@ -40,13 +40,13 @@ while True:
     if valSaque >= 50:
         qtd50 += 1
         valSaque -= 50
-    elif valSaque < 50 and valSaque >= 20:
+    elif valSaque >= 20:
         qtd20 += 1
         valSaque -= 20
-    elif valSaque < 20 and valSaque >= 10:
+    elif valSaque >= 10:
         qtd10 += 1
         valSaque -= 10
-    elif valSaque < 10:
+    else:
         qtd1 += 1
         valSaque -= 1
 

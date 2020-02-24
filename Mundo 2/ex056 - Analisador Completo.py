@@ -16,10 +16,7 @@ for pess in range(1, 5):
     if (idade == 1) or (idade > maisVelho):
         maisVelho = idade
         nomeMaisVelho = nome
-        medIdade += idade
-    else:
-        medIdade += idade
-
+    medIdade += idade
     if sexo == 'F':
         qtdMulher += 1
 
@@ -36,7 +33,7 @@ maisVelho = 0
 nomeMaisVelho = ''
 qtdMulher = 0
 
-for pess in range(1, 5):
+for _ in range(1, 5):
     nome = str(input('Informe o Nome: '))
     idade = int(input('Informe a Idade: '))
     sexo = str(input('Informe o Sexo (M/F): ').upper())
@@ -44,10 +41,7 @@ for pess in range(1, 5):
     if (idade == 1) or (idade > maisVelho):
         maisVelho = idade
         nomeMaisVelho = nome
-        medIdade += idade
-    else:
-        medIdade += idade
-
+    medIdade += idade
     if sexo == 'F':
         qtdMulher += 1
 

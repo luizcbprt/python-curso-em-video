@@ -5,9 +5,9 @@ print('-=' * 25)
 print(f'{cores["txRoxo"]} Maior e Menor Valores em Lista {cores["limpa"]}')
 print('-=' * 25)
 
-lista = []
-for pos in range(0,5):
-    lista.append(int(input(f'Informe o valor para a posição {pos}: ')))
+lista = [
+    int(input(f'Informe o valor para a posição {pos}: ')) for pos in range(5)
+]
 
 print(f'O maior valor foi {max(lista)} nas posições: ', end='')
 for posicao, val in enumerate(lista):
@@ -25,9 +25,9 @@ print('-=' * 25)
 print(f'{cores["txRoxo"]} Maior e Menor Valores em Lista {cores["limpa"]}')
 print('-=' * 25)
 
-lista = []
-for pos in range(0,5):
-    lista.append(int(input(f'Informe o valor para a posição {pos}: ')))
+lista = [
+    int(input(f'Informe o valor para a posição {pos}: ')) for pos in range(5)
+]
 
 print(f'O maior valor foi {max(lista)} nas posições: ', end='')
 for posicao, val in enumerate(lista):
